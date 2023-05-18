@@ -47,7 +47,6 @@ body:before{
     background-color: rgba(0,0,0,0.9);
 }
 input{
-
     font-family: "Scheherazade";
     height: 40px;
     border-radius: 12px;
@@ -222,9 +221,9 @@ input[type="submit"]:hover{
     text-align: center;
     font-size: 16px;
     color: #666666;
-    top: -18px;
+    top: -39px;
     position: relative;
-    left: 45px;
+    left: 65px;
 }
 .signup_link a{
     color: #2691d9;

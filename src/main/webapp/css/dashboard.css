@@ -5,8 +5,8 @@
 }
 
 :root {
-    --app-bg: #2a2a2a;
-    --sidebar: #131313;
+    --sidebar: #2a2a2a;
+    --app-bg: #131313;
     --sidebar-main-color: #fff;
     --table-border: #1a2131;
     --table-header: #1a2131;
@@ -100,9 +100,11 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
-
-.sidebar-list-item svg {
-    margin-right: 8px;
+.sidebar-list-item a svg,
+.sidebar-list-item a img{
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
 }
 
 .sidebar-list-item:hover {
@@ -212,14 +214,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4px;
 }
 
 .app-content-headerText {
     color: var(--app-content-main-color);
     font-size: 24px;
     line-height: 32px;
-    margin: 20px;
+    margin: 5px;
+    text-align: left;
 }
 
 .app-content-headerButton {
@@ -416,6 +418,10 @@ body {
 
 .filter-button.reset {
     background-color: var(--filter-reset);
+}
+.table-wrapper{
+    margin-top: 20px;
+    height: max-content;
 }
 .table-wrapper,
 .product-cell.announcement{
@@ -617,6 +623,8 @@ img[src="images/shotmaniacs.png"]{
     padding: 12px;
     margin-bottom: 12px;
 }
+
+
 .product-cell-announcement,
 .table-wrapper{
     width: 800px;
@@ -626,11 +634,51 @@ img[src="images/shotmaniacs.png"]{
 .table-wrapper,
 .product-cell-announcement,
 .myTable{
-    width: 800px;
+    width: 700px;
     display: block;
-    margin-top: 20px;
+    margin-top: -20px;
 }
-#announcements,
-#table{
-    width: 100%;
+.myTable td{
+    width: 20%;
+    color: white;
+}
+.myTable th{
+    text-align: left;
+    color: white;
+}
+.table-wrapper h1{
+    color: white;
+}
+#dashboard-icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+#previous-bookings-icon{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+#upcoming-bookings-icon{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+#announcements-icon{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+.products-area-wrapper.tableView{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+.product-cell.announcement{
+    background: var(--sidebar);
+    height: 110px;
+    border-radius: 10px;
+}
+.more-announcements-button{
+    color: white;
+    font-size: 16px;
 }

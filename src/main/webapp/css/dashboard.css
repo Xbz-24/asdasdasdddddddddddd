@@ -5,15 +5,15 @@
 }
 
 :root {
-    --app-bg: #454545;
-    --sidebar: #282828;
+    --app-bg: #2a2a2a;
+    --sidebar: #131313;
     --sidebar-main-color: #fff;
     --table-border: #1a2131;
     --table-header: #1a2131;
     --app-content-main-color: #fff;
     --sidebar-link: #fff;
-    --sidebar-active-link: #1d283c;
-    --sidebar-hover-link: #1a2539;
+    --sidebar-active-link: #787777;
+    --sidebar-hover-link: #797979;
     --action-color: #2869ff;
     --action-color-hover: #6291fd;
     --app-content-secondary-color: #1d283c;
@@ -212,7 +212,7 @@ body {
     color: var(--app-content-main-color);
     font-size: 24px;
     line-height: 32px;
-    margin: 0;
+    margin: 20px;
 }
 
 .app-content-headerButton {
